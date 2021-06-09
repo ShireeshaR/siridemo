@@ -1,0 +1,216 @@
+body{
+    background: #F4f4f4;
+    margin: 0;
+}
+
+.Link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: #444444;
+    
+}
+
+.container{
+    background: #FFF;
+    margin: 0 auto;
+    width: 780px;
+}
+
+.header{
+    padding: 45px 0 20px 40px;
+    border: 2px solid black;
+}
+
+.menu{
+    background: #3b7687;
+    padding: 6px 0px 6px 40px;
+}
+
+.menu a{
+    color : #c5d6db;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Narrow";  
+}
+
+.menu a:hover{
+    color: #ecf2f3;
+}
+
+
+aside {
+    float: left;
+    width: 120px;
+    padding: 30px 0px 0px 40px;
+}
+
+h1{
+    margin: 0px;
+    color: #869843;
+    font-size: 24px;
+    font-family: "Myriad Pro";
+    font-weight: Normal;
+}
+
+h2{
+    margin: 20px 0 5px 0;
+    color: #3b7687;
+    font-size: 15px;
+   
+}
+
+.main{
+    margin: 0 0 0 150px;
+    padding: 35px 40px 30px 0;
+    font-family: "Georgia";
+    color: #444444;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+    
+}
+
+#home-image img{
+    width : 100%;
+}
+
+.main a:hover{
+    color:#444444;
+}
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #6d6d6d;
+    font-family: "Lucida Sans Unicode";
+    font-size: 11px;
+    text-align: justify;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #262626;
+    
+}
+
+.seperator{
+    color: #FFFFFF;
+    font-size: 11px;
+   
+}
+
+/******* About Page Styles******/
+
+#about-page #home-image img{
+    
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+#about-page #Profile-info
+{
+    float: right;
+    margin: 1px;
+}
+
+#about-page .description{
+    clear: both;
+}
+
+/*********************** Conatct Page**********************/
+
+#contact #form{
+    width: 500px;
+    border: 2px solid black;
+    padding: 20px 45px 15px 15px;
+    margin: 0 auto;
+    
+    /* background-color: white; */
+    /* box-shadow: 0 0 black; */
+}
+
+.page-heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact #form input{
+    
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: whitesmoke;
+
+}
+#contact #form #message{
+    
+    width: 100%;
+    border-radius: 5px;
+    background: whitesmoke;
+
+}
+
+#contact #form #submit{
+    background: rgb(59,118,135);
+    height: 30px;
+    width: 500px;
+    align-content: center;
+}
+.frame-container {
+  position: relative;
+}
+.iframe-button {
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+/* Only show the button when the parent is hovered: */
+
+.frame-container:hover .iframe-button {
+  display: initial;
+}
+
+
+
+/* CSS for login Page */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
