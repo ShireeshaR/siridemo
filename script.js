@@ -98,7 +98,7 @@ function allowlogin(usermail){
                         "name":"NLIT HTML Website",
                         "Program": "Platinum" // flat custom attributes
                     });
-                     window.location = "http://shireesha123.epizy.com/Index.HTML";
+                     window.location = "https://siridemo.github.io/index.html";
 
       }
     else
